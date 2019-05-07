@@ -1,0 +1,936 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="deleteToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Delete</value>
+  </data>
+  <data name="editToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="lb11.Text" xml:space="preserve">
+    <value>11:00</value>
+  </data>
+  <data name="lb12.Text" xml:space="preserve">
+    <value>12:00</value>
+  </data>
+  <data name="lb13.Text" xml:space="preserve">
+    <value>13:00</value>
+  </data>
+  <data name="lb14.Text" xml:space="preserve">
+    <value>14:00</value>
+  </data>
+  <data name="lb15.Text" xml:space="preserve">
+    <value>15:00</value>
+  </data>
+  <data name="lb16.Text" xml:space="preserve">
+    <value>16:00</value>
+  </data>
+  <data name="lb17.Text" xml:space="preserve">
+    <value>17:00</value>
+  </data>
+  <data name="lb18.Text" xml:space="preserve">
+    <value>18:00</value>
+  </data>
+  <data name="lb19.Text" xml:space="preserve">
+    <value>19:00</value>
+  </data>
+  <data name="lb20.Text" xml:space="preserve">
+    <value>20:00</value>
+  </data>
+  <data name="lb8.Text" xml:space="preserve">
+    <value>8:00</value>
+  </data>
+  <data name="lb9.Text" xml:space="preserve">
+    <value>9:00</value>
+  </data>
+  <data name="lbFriday.Text" xml:space="preserve">
+    <value>Friday</value>
+  </data>
+  <data name="lbHour.Text" xml:space="preserve">
+    <value>Hour:</value>
+  </data>
+  <data name="lbMon.Text" xml:space="preserve">
+    <value>Monday</value>
+  </data>
+  <data name="lbThursday.Text" xml:space="preserve">
+    <value>Thursday</value>
+  </data>
+  <data name="lbTuesday.Text" xml:space="preserve">
+    <value>Tuesday</value>
+  </data>
+  <data name="lbWednesday.Text" xml:space="preserve">
+    <value>Wednesday</value>
+  </data>
+  <metadata name="contextMenuMeeting.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="toolTipDescription.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>186, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbMon.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbMon.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbMon.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9.75pt</value>
+  </data>
+  <data name="lbMon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 0</value>
+  </data>
+  <data name="lbMon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 30</value>
+  </data>
+  <data name="lbMon.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbMon.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbMon.Name" xml:space="preserve">
+    <value>lbMon</value>
+  </data>
+  <data name="&gt;&gt;lbMon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbMon.Parent" xml:space="preserve">
+    <value>tablePanel</value>
+  </data>
+  <data name="&gt;&gt;lbMon.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lb8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lb8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9.75pt</value>
+  </data>
+  <data name="lb8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 30</value>
+  </data>
+  <data name="lb8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 36</value>
+  </data>
+  <data name="lb8.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lb8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lb8.Name" xml:space="preserve">
+    <value>lb8</value>
+  </data>
+  <data name="&gt;&gt;lb8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb8.Parent" xml:space="preserve">
+    <value>tablePanel</value>
+  </data>
+  <data name="&gt;&gt;lb8.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lbWednesday.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lbWednesday.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbWednesday.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9.75pt</value>
+  </data>
+  <data name="lbWednesday.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 0</value>
+  </data>
+  <data name="lbWednesday.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 30</value>
+  </data>
+  <data name="lbWednesday.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbWednesday.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbWednesday.Name" xml:space="preserve">
+    <value>lbWednesday</value>
+  </data>
+  <data name="&gt;&gt;lbWednesday.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbWednesday.Parent" xml:space="preserve">
+    <value>tablePanel</value>
+  </data>
+  <data name="&gt;&gt;lbWednesday.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lbTuesday.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lbTuesday.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbTuesday.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9.75pt</value>
+  </data>
+  <data name="lbTuesday.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 0</value>
+  </data>
+  <data name="lbTuesday.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 30</value>
+  </data>
+  <data name="lbTuesday.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbTuesday.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbTuesday.Name" xml:space="preserve">
+    <value>lbTuesday</value>
+  </data>
+  <data name="&gt;&gt;lbTuesday.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbTuesday.Parent" xml:space="preserve">
+    <value>tablePanel</value>
+  </data>
+  <data name="&gt;&gt;lbTuesday.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbFriday.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lbFriday.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbFriday.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9.75pt</value>
+  </data>
+  <data name="lbFriday.Location" type="System.Drawing.Point, System.Drawing">
+    <value>499, 0</value>
+  </data>
+  <data name="lbFriday.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 30</value>
+  </data>
+  <data name="lbFriday.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbFriday.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbFriday.Name" xml:space="preserve">
+    <value>lbFriday</value>
+  </data>
+  <data name="&gt;&gt;lbFriday.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbFriday.Parent" xml:space="preserve">
+    <value>tablePanel</value>
+  </data>
+  <data name="&gt;&gt;lbFriday.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbThursday.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lbThursday.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbThursday.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9.75pt</value>
+  </data>
+  <data name="lbThursday.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 0</value>
+  </data>
+  <data name="lbThursday.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 30</value>
+  </data>
+  <data name="lbThursday.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbThursday.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbThursday.Name" xml:space="preserve">
+    <value>lbThursday</value>
+  </data>
+  <data name="&gt;&gt;lbThursday.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbThursday.Parent" xml:space="preserve">
+    <value>tablePanel</value>
+  </data>
+  <data name="&gt;&gt;lbThursday.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tablePanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lbHour.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lbHour.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbHour.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9.75pt</value>
+  </data>
+  <data name="lbHour.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="lbHour.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 30</value>
+  </data>
+  <data name="lbHour.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbHour.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbHour.Name" xml:space="preserve">
+    <value>lbHour</value>
+  </data>
+  <data name="&gt;&gt;lbHour.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbHour.Parent" xml:space="preserve">
+    <value>tablePanel</value>
+  </data>
+  <data name="&gt;&gt;lbHour.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lb9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lb9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9.75pt</value>
+  </data>
+  <data name="lb9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 66</value>
+  </data>
+  <data name="lb9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 36</value>
+  </data>
+  <data name="lb9.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lb9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lb9.Name" xml:space="preserve">
+    <value>lb9</value>
+  </data>
+  <data name="&gt;&gt;lb9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb9.Parent" xml:space="preserve">
+    <value>tablePanel</value>
+  </data>
+  <data name="&gt;&gt;lb9.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lb10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lb10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9.75pt</value>
+  </data>
+  <data name="lb10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 102</value>
+  </data>
+  <data name="lb10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 36</value>
+  </data>
+  <data name="lb10.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lb10.Text" xml:space="preserve">
+    <value>10:00</value>
+  </data>
+  <data name="lb10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lb10.Name" xml:space="preserve">
+    <value>lb10</value>
+  </data>
+  <data name="&gt;&gt;lb10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb10.Parent" xml:space="preserve">
+    <value>tablePanel</value>
+  </data>
+  <data name="&gt;&gt;lb10.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lb11.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lb11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9.75pt</value>
+  </data>
+  <data name="lb11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 138</value>
+  </data>
+  <data name="lb11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 36</value>
+  </data>
+  <data name="lb11.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lb11.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lb11.Name" xml:space="preserve">
+    <value>lb11</value>
+  </data>
+  <data name="&gt;&gt;lb11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb11.Parent" xml:space="preserve">
+    <value>tablePanel</value>
+  </data>
+  <data name="&gt;&gt;lb11.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lb13.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lb13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9.75pt</value>
+  </data>
+  <data name="lb13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 210</value>
+  </data>
+  <data name="lb13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 36</value>
+  </data>
+  <data name="lb13.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lb13.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lb13.Name" xml:space="preserve">
+    <value>lb13</value>
+  </data>
+  <data name="&gt;&gt;lb13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb13.Parent" xml:space="preserve">
+    <value>tablePanel</value>
+  </data>
+  <data name="&gt;&gt;lb13.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lb12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lb12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9.75pt</value>
+  </data>
+  <data name="lb12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 174</value>
+  </data>
+  <data name="lb12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 36</value>
+  </data>
+  <data name="lb12.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lb12.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lb12.Name" xml:space="preserve">
+    <value>lb12</value>
+  </data>
+  <data name="&gt;&gt;lb12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb12.Parent" xml:space="preserve">
+    <value>tablePanel</value>
+  </data>
+  <data name="&gt;&gt;lb12.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lb14.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lb14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9.75pt</value>
+  </data>
+  <data name="lb14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 246</value>
+  </data>
+  <data name="lb14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 36</value>
+  </data>
+  <data name="lb14.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lb14.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lb14.Name" xml:space="preserve">
+    <value>lb14</value>
+  </data>
+  <data name="&gt;&gt;lb14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb14.Parent" xml:space="preserve">
+    <value>tablePanel</value>
+  </data>
+  <data name="&gt;&gt;lb14.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lb15.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lb15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9.75pt</value>
+  </data>
+  <data name="lb15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 282</value>
+  </data>
+  <data name="lb15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 36</value>
+  </data>
+  <data name="lb15.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lb15.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lb15.Name" xml:space="preserve">
+    <value>lb15</value>
+  </data>
+  <data name="&gt;&gt;lb15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb15.Parent" xml:space="preserve">
+    <value>tablePanel</value>
+  </data>
+  <data name="&gt;&gt;lb15.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lb16.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lb16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9.75pt</value>
+  </data>
+  <data name="lb16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 318</value>
+  </data>
+  <data name="lb16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 36</value>
+  </data>
+  <data name="lb16.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lb16.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lb16.Name" xml:space="preserve">
+    <value>lb16</value>
+  </data>
+  <data name="&gt;&gt;lb16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb16.Parent" xml:space="preserve">
+    <value>tablePanel</value>
+  </data>
+  <data name="&gt;&gt;lb16.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lb18.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lb18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9.75pt</value>
+  </data>
+  <data name="lb18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 390</value>
+  </data>
+  <data name="lb18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 36</value>
+  </data>
+  <data name="lb18.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lb18.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lb18.Name" xml:space="preserve">
+    <value>lb18</value>
+  </data>
+  <data name="&gt;&gt;lb18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb18.Parent" xml:space="preserve">
+    <value>tablePanel</value>
+  </data>
+  <data name="&gt;&gt;lb18.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lb17.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lb17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9.75pt</value>
+  </data>
+  <data name="lb17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 354</value>
+  </data>
+  <data name="lb17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 36</value>
+  </data>
+  <data name="lb17.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lb17.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lb17.Name" xml:space="preserve">
+    <value>lb17</value>
+  </data>
+  <data name="&gt;&gt;lb17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb17.Parent" xml:space="preserve">
+    <value>tablePanel</value>
+  </data>
+  <data name="&gt;&gt;lb17.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lb19.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lb19.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9.75pt</value>
+  </data>
+  <data name="lb19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 426</value>
+  </data>
+  <data name="lb19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 36</value>
+  </data>
+  <data name="lb19.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lb19.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lb19.Name" xml:space="preserve">
+    <value>lb19</value>
+  </data>
+  <data name="&gt;&gt;lb19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb19.Parent" xml:space="preserve">
+    <value>tablePanel</value>
+  </data>
+  <data name="&gt;&gt;lb19.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lb20.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lb20.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9.75pt</value>
+  </data>
+  <data name="lb20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 462</value>
+  </data>
+  <data name="lb20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 38</value>
+  </data>
+  <data name="lb20.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lb20.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lb20.Name" xml:space="preserve">
+    <value>lb20</value>
+  </data>
+  <data name="&gt;&gt;lb20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb20.Parent" xml:space="preserve">
+    <value>tablePanel</value>
+  </data>
+  <data name="&gt;&gt;lb20.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="meetingTable.ColumnCount" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="meetingTable.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="meetingTable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 30</value>
+  </data>
+  <data name="meetingTable.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="meetingTable.RowCount" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="meetingTable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>520, 470</value>
+  </data>
+  <data name="meetingTable.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;meetingTable.Name" xml:space="preserve">
+    <value>meetingTable</value>
+  </data>
+  <data name="&gt;&gt;meetingTable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;meetingTable.Parent" xml:space="preserve">
+    <value>tablePanel</value>
+  </data>
+  <data name="&gt;&gt;meetingTable.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="meetingTable.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls /&gt;&lt;Columns Styles="Percent,20,Percent,20,Percent,20,Percent,20,Percent,20" /&gt;&lt;Rows Styles="Percent,7,692308,Percent,7,692308,Percent,7,692308,Percent,7,692308,Percent,7,692308,Percent,7,692308,Percent,7,692308,Percent,7,692308,Percent,7,692308,Percent,7,692308,Percent,7,692308,Percent,7,692308,Percent,7,692308" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tablePanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tablePanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tablePanel.RowCount" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="tablePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>600, 500</value>
+  </data>
+  <data name="tablePanel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tablePanel.Name" xml:space="preserve">
+    <value>tablePanel</value>
+  </data>
+  <data name="&gt;&gt;tablePanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tablePanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tablePanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tablePanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lbHour" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lbFriday" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="lbMon" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lbTuesday" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lbWednesday" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="lbThursday" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="lb8" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lb9" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lb10" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lb11" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lb13" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lb12" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lb14" Row="7" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lb15" Row="8" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lb16" Row="9" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lb18" Row="11" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lb17" Row="10" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lb19" Row="12" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lb20" Row="13" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="meetingTable" Row="1" RowSpan="13" Column="1" ColumnSpan="5" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,80,Percent,20,Percent,20,Percent,20,Percent,20,Percent,20" /&gt;&lt;Rows Styles="Absolute,30,Percent,7,692308,Percent,7,692308,Percent,7,692308,Percent,7,692308,Percent,7,692308,Percent,7,692308,Percent,7,692308,Percent,7,692308,Percent,7,692308,Percent,7,692308,Percent,7,692308,Percent,7,692308,Percent,7,692308" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="editToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="deleteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="contextMenuMeeting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 48</value>
+  </data>
+  <data name="&gt;&gt;contextMenuMeeting.Name" xml:space="preserve">
+    <value>contextMenuMeeting</value>
+  </data>
+  <data name="&gt;&gt;contextMenuMeeting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>600, 500</value>
+  </data>
+  <data name="&gt;&gt;editToolStripMenuItem.Name" xml:space="preserve">
+    <value>editToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;editToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;deleteToolStripMenuItem.Name" xml:space="preserve">
+    <value>deleteToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;deleteToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolTipDescription.Name" xml:space="preserve">
+    <value>toolTipDescription</value>
+  </data>
+  <data name="&gt;&gt;toolTipDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>WeekPlaner</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
