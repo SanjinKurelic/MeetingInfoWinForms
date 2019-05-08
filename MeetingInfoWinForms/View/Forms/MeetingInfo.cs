@@ -94,11 +94,19 @@ namespace MeetingInfoWinForms
             }
             return false;
         }
+        
+        private bool RequiredFieldsEmpty()
+        {
+            return
+                string.IsNullOrWhiteSpace(tbTitle.Text) ||
+                string.IsNullOrWhiteSpace(tbDescription.Text) ||
+                string.IsNullOrWhiteSpace(tbPlace.Text);
+        }
 
         private void btnSave_Click(object sender, EventArgs e)
         {
             // Validation
-            if(string.IsNullOrWhiteSpace(tbTitle.Text) || string.IsNullOrWhiteSpace(tbDescription.Text) || string.IsNullOrWhiteSpace(tbPlace.Text))
+            if(RequiredFieldsEmpty())
             {
                 MessageBox.Show(GlobalResources.RequiredMessage, GlobalResources.ErrorTitle, MessageBoxButtons.OK);
                 return;
