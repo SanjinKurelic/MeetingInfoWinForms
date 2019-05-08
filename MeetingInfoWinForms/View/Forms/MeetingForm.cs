@@ -7,6 +7,7 @@ using System.Globalization;
 using System.Threading;
 using System.Linq;
 using System.Collections.Generic;
+using System.Drawing.Printing;
 
 namespace MeetingInfoWinForms
 {
@@ -114,17 +115,21 @@ namespace MeetingInfoWinForms
 
         private void btnPrint_Click(object sender, EventArgs e)
         {
+            PaperSize paperSize = new PaperSize();
+            paperSize.RawKind = Convert.ToInt32(PaperKind.A4);
+            printPlaner.DefaultPageSettings.PaperSize = paperSize;
+            printPlaner.DefaultPageSettings.Landscape = true;
             if (printDialog.ShowDialog() == DialogResult.OK)
-            {
-                printPlaner.DefaultPageSettings.Landscape = true;
+            {                
                 printPreviewDialog.ShowDialog();
             }
         }
 
-        private void printPlaner_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        private void printPlaner_PrintPage(object sender, PrintPageEventArgs e)
         {
             Bitmap output = new Bitmap(e.MarginBounds.Width, e.MarginBounds.Height, e.Graphics);
-            weekPlaner.DrawToBitmap(output, new Rectangle(0, 0, output.Width, output.Height));
+            weekPlaner.DrawToBitmap(output, weekPlaner.ClientRectangle);
+            e.Graphics.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
             e.Graphics.DrawImage(output, e.MarginBounds);
 
         }

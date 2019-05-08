@@ -59,49 +59,58 @@ namespace MeetingInfoWinForms {
                 resourceCulture = value;
             }
         }
-
+        
         /// <summary>
-        ///   Looks up a localized string similar to ErrorTitle.
-        /// </summary>
-        public static string ErrorTitle {
-            get {
-                return ResourceManager.GetString("ErrorTitle", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to DeleteConfirm.
-        /// </summary>
-        public static string DeleteConfirm {
-            get {
-                return ResourceManager.GetString("DeleteConfirm", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to CloseButton.
+        ///   Looks up a localized string similar to CLOSE.
         /// </summary>
         public static string CloseButton {
             get {
                 return ResourceManager.GetString("CloseButton", resourceCulture);
             }
         }
-
+        
         /// <summary>
-        ///   Looks up a localized string similar to ConfirmTitle.
+        ///   Looks up a localized string similar to Confirm.
         /// </summary>
         public static string ConfirmTitle {
             get {
                 return ResourceManager.GetString("ConfirmTitle", resourceCulture);
             }
         }
-
+        
         /// <summary>
-        ///   Looks up a localized string similar to SaveSuccess.
+        ///   Looks up a localized string similar to There is already meeting at that time.
         /// </summary>
-        public static string SaveSuccess {
+        public static string DateReserved {
             get {
-                return ResourceManager.GetString("SaveSuccess", resourceCulture);
+                return ResourceManager.GetString("DateReserved", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Are you sure you want to delete this item?.
+        /// </summary>
+        public static string DeleteConfirm {
+            get {
+                return ResourceManager.GetString("DeleteConfirm", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to There was an error with this action. Try again later..
+        /// </summary>
+        public static string ErrorMessage {
+            get {
+                return ResourceManager.GetString("ErrorMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error.
+        /// </summary>
+        public static string ErrorTitle {
+            get {
+                return ResourceManager.GetString("ErrorTitle", resourceCulture);
             }
         }
         
@@ -124,42 +133,32 @@ namespace MeetingInfoWinForms {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
+        
         /// <summary>
-        ///   Looks up a localized string similar to SuccessTitle.
-        /// </summary>
-        public static string SuccessTitle {
-            get {
-                return ResourceManager.GetString("SuccessTitle", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to ErrorMessage.
-        /// </summary>
-        public static string ErrorMessage {
-            get {
-                return ResourceManager.GetString("ErrorMessage", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to RequiredMessage.
+        ///   Looks up a localized string similar to All fields are required.
         /// </summary>
         public static string RequiredMessage {
             get {
                 return ResourceManager.GetString("RequiredMessage", resourceCulture);
             }
         }
-
+        
         /// <summary>
-        ///   Looks up a localized string similar to DateReserved.
+        ///   Looks up a localized string similar to Data has been successfully saved.
         /// </summary>
-        public static string DateReserved {
+        public static string SaveSuccess {
             get {
-                return ResourceManager.GetString("DateReserved", resourceCulture);
+                return ResourceManager.GetString("SaveSuccess", resourceCulture);
             }
         }
-
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Success.
+        /// </summary>
+        public static string SuccessTitle {
+            get {
+                return ResourceManager.GetString("SuccessTitle", resourceCulture);
+            }
+        }
     }
 }
