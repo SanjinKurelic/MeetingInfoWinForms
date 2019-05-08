@@ -4,8 +4,8 @@ Meeting Info is the program for scheduling meetings. The main part of the progra
 
 - Windows Forms (current one)
 - [WPF](https://github.com/SanjinKurelic/MeetingInfoWPF)
-- Web Forms
-- ASP. NET MVC
+- [Web Forms](https://github.com/SanjinKurelic/MeetingInfoWebForms)
+- [ASP. NET MVC](https://github.com/SanjinKurelic/MeetingInfoMVC)
 
 ## Getting started
 
@@ -26,6 +26,19 @@ Install Visual Studio - include the .NET Framework and Windows Forms. Download t
 
 https://github.com/SanjinKurelic/MeetingInfoDatabase
 
+From the same repository, download file **Database.sql**. Install SQL Server and create **"sa"** user with the following values:
+
+database username: **sa**<br>
+database password: **SQL**
+
+Note: It is discouraged to use **"sa"** account for application-database connection, so it is preferable to create the new user for this project. If you create different user, you need to change connection strings in the project configuration file:
+
+```
+MeetingInfoWinForms > MeetingInfoWinForms > App.config
+```
+
+**Run Database.sql script and create required database tables on SQL Server.**
+
 Open Visual Studio and clone this repository to your computer. Open NuGet shell and install the *MeetingInfoDatabase* package by using the following command:
 
 ```
@@ -36,19 +49,19 @@ Install-Package MeetingInfoDatabase -Source <path_to_package>
 
 When you run the project, you should be presented with the following screen.
 
-![](https://github.com/SanjinKurelic/MeetingInfoWinForms/images/home.jpg)
+![](https://github.com/SanjinKurelic/MeetingInfoWinForms/blob/master/images/home.jpg)
 
 The main screen shows all the meetings for a current week. By selecting year, month and week in the upper left corner, the user can view his or her meetings for a given week. By right clicking on the meeting, the user can edit or remove selected meeting. If the user double clicks the meeting, he or she will be presented with a window with more information about the meeting.
 
-![](https://github.com/SanjinKurelic/MeetingInfoWinForms/images/info.jpg)
+![](https://github.com/SanjinKurelic/MeetingInfoWinForms/blob/master/images/info.jpg)
 
 In the upper right corner of the main screen there are three buttons: *"new meeting"* button, *"print"* button and *"change language"* button. By clicking on the *"new meeting"* button dialog box will open and ask the user information about the meeting: date, time, title, description, place and the meeting client. The program offers list of available clients who are stored in the database. **All fields are required and the user can't have 2 meetings on the same day**.
 
-![](https://github.com/SanjinKurelic/MeetingInfoWinForms/images/new.jpg)
+![](https://github.com/SanjinKurelic/MeetingInfoWinForms/blob/master/images/new.jpg)
 
 Middle button on the upper right corner is the *"print"* button, which allow the user to print the meetings of a current week (as shown on below image).
 
-![](https://github.com/SanjinKurelic/MeetingInfoWinForms/images/print.jpg)
+![](https://github.com/SanjinKurelic/MeetingInfoWinForms/blob/master/images/print.jpg)
 
 There are 2 available languages for this project: English and Croatian. The user can change language by clicking the *"change language"* button (the globe icon).
 
