@@ -18,7 +18,7 @@ For running the project you need to have the following items:
 - .NET Framework 4.6.1 or newer
 - *MeetingInfoDatabase*
 
-*Notice:* Project might run on the older .NET Framework or using older Visual Studio/SQL Server version, with or without additional tweaks.
+**Notice:** Project might run on the older .NET Framework or using older Visual Studio/SQL Server version, with or without additional tweaks.
 
 ### Installig
 
@@ -31,7 +31,7 @@ From the same repository, download **Database.sql** file. Install SQL Server and
 database username: **sa**<br>
 database password: **SQL**
 
-Note: It is discouraged to use **"sa"** account for application-database connection, so it is preferable to create the new user for this project. If you create different user, you need to change connection strings in the project configuration file:
+**Note:** It is discouraged to use **"sa"** account for application-database connection, so it is preferable to create the new user for this project. If you create different user, you need to change connection strings in the project configuration file:
 
 ```
 MeetingInfoWinForms > MeetingInfoWinForms > App.config
